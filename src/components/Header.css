@@ -1,0 +1,68 @@
+header {
+  padding: 24px;
+  background-color: var(--header-background-color);
+  color: var(--header-text-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Inter;
+}
+
+header button {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  display: flex;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  transition: transform 0.1s;
+}
+
+header button:active .icon {
+  transform: scale(1.2); /* Aumenta um pouco o tamanho do ícone */
+}
+
+header .shopping__cart {
+  position: relative;
+}
+
+header .icons {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+header .shopping__cart span {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  color: white;
+  background-color: green;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  transition: transform 0.1s;
+}
+
+header .shopping__cart span.pulse {
+  animation: pulse 0.2s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

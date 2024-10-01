@@ -1,0 +1,27 @@
+.theme-light {
+  --background-color: #fff;
+  --text-color: #000;
+  --header-background-color: #f0f0f0;
+  --header-text-color: #333;
+  --cartmenu-background-color: #f0f0f0;
+  --closebtn-color: #000;
+  --productlist-background-color: #d0d0d0;
+  --productlist-text-color: #333;
+}
+
+.theme-dark {
+  --background-color: #333;
+  --text-color: #fff;
+  --header-background-color: #444;
+  --header-text-color: #fff;
+  --cartmenu-background-color: #444;
+  --closebtn-color: #fff;
+  --productlist-background-color: #666;
+  --productlist-text-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Inter;
+}

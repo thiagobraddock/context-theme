@@ -1,0 +1,33 @@
+.cart ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+.cart li {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.cart li span {
+  background-color: white;
+  display: flex;
+  width: 20px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid green;
+  background-color: rgba(172, 255, 47, 0.568);
+  font-size: 0.8rem;
+}
+
+.cart button {
+  margin-top: 0.2rem;
+  border: 1px solid #ccc;
+  transition: transform 0.1s;
+}
+
+.cart button:active {
+  transform: scale(1.1); /* Aumenta um pouco o tamanho do ícone */
+}

@@ -1,0 +1,36 @@
+.product__list {
+  padding: 24px;
+  background-color: var(--productlist-background-color);
+  color: var(--productlist-text-color);
+}
+
+.product__list ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 12px;
+}
+.product__list li {
+  padding: 0.5rem;
+  display: flex;
+  width: 100px;
+  height: 140px;
+  flex-direction: column;
+  background-color: #c0c0c0;
+  justify-content: space-between;
+  border-radius: 0.3rem;
+}
+
+.product__list li button {
+  width: 100%;
+  border-radius: 0.3rem;
+  background-color: #3165de;
+  color: white;
+  padding: 4px;
+  border: 1px solid #ccc;
+  transition: transform 0.1s;
+}
+
+.product__list button:active {
+  transform: scale(1.05); /* Aumenta um pouco o tamanho do ícone */
+}
